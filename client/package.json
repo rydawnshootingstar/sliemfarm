@@ -1,0 +1,33 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "dev": "npm run clean && npm run start",
+    "clean": "rm -rf dist .cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "moment": "^2.24.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-react": "^0.85.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}

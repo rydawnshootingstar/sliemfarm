@@ -1,0 +1,14 @@
+[
+    {
+        "type": "color",
+        "values": ["grey", "orange", "red", "green", "blue"]
+    },
+    {
+        "type": "species",
+        "values": ["flying", "royal", "spotted", "jelly", "rock", "normal"]
+    },
+    {
+        "type": "size",
+        "values": ["small", "large"]
+    }
+]

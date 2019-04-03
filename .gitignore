@@ -1,0 +1,7 @@
+/server/secrets/
+**/node_modules
+
+**/.DS_Store
+*.cache*
+#these are just my notes
+*.txt
